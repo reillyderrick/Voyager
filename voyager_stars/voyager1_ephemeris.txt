@@ -1,0 +1,215 @@
+*******************************************************************************
+ Revised: Jan 21, 2015   Voyager 1 Spacecraft (interplanetary) / (Sun)     -31
+                         http://www.jpl.nasa.gov/missions/voyager-1/
+
+ BACKGROUND
+   See the web-page above for extensive information on the Voyager Mission.
+
+ SPACECRAFT TRAJECTORY:
+   This trajectory is composed of two merged sections:
+
+     #1) 1977-Sep-5 to 1986-Jan-1:
+          A patched conic mission-design type trajectory in which the conics 
+          were constructed to approximately match specific events (such 
+          satellite encounters), providing a rough accuracy. 
+
+     #2) 1986-Jan-1 to 2031-Jan-1 (pfile_a54206u)
+          Time-extended trajectory provided by Voyager Navigation
+*******************************************************************************
+ 
+
+ 
+
+*******************************************************************************
+Ephemeris / WWW_USER Thu Mar 11 16:06:31 2021 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: Voyager 1 (spacecraft) (-31)    {source: Voyager_1}
+Center body name: Earth (399)                     {source: Voyager_1}
+Center-site name: GEOCENTRIC
+*******************************************************************************
+Start time      : A.D. 1978-Jan-01 00:00:00.0000 UT      
+Stop  time      : A.D. 2030-Dec-01 00:00:00.0000 UT      
+Step-size       : 6 calendar months
+*******************************************************************************
+Target pole/equ : No model available
+Target radii    : (unavailable)                                                
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : High-precision EOP model        {East-longitude positive}
+Center radii    : 6378.1 x 6378.1 x 6356.8 km     {Equator, meridian, pole}    
+Target primary  : Earth
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: Voyager_1}
+Rel. light bend : Sun, EARTH                      {source: Voyager_1}
+Rel. lght bnd GM: 1.3271E+11, 3.9860E+05 km^3/s^2                              
+Atmos refraction: NO (AIRLESS)
+RA format       : DEG
+Time format     : CAL 
+EOP file        : eop.210311.p210602                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2021-MAR-11. PREDICTS-> 2021-JUN-01
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+Table format    : Comma Separated Values (spreadsheet)
+*******************************************************************************
+ Date__(UT)__HR:MN, , , R.A._(ICRF), DEC_(ICRF),
+************************************************
+$$SOE
+date,na1,na2,ra,dec,obsEcLng,obsEcLat,
+ 1978-Jan-01 00:00, , ,    52.06147,   20.73814,
+ 1978-Jul-01 00:00, , ,   109.59527,   22.86676,
+ 1979-Jan-01 00:00, , ,   132.73982,   18.48124,
+ 1979-Jul-01 00:00, , ,   139.96375,   16.72939,
+ 1980-Jan-01 00:00, , ,   171.73092,    5.71878,
+ 1980-Jul-01 00:00, , ,   170.48109,    6.38365,
+ 1981-Jan-01 00:00, , ,   191.57322,   -0.29522,
+ 1981-Jul-01 00:00, , ,   192.05040,    6.38939,
+ 1982-Jan-01 00:00, , ,   210.04041,    4.07714,
+ 1982-Jul-01 00:00, , ,   209.17534,    9.16374,
+ 1983-Jan-01 00:00, , ,   221.68247,    6.57280,
+ 1983-Jul-01 00:00, , ,   220.47251,   10.58513,
+ 1984-Jan-01 00:00, , ,   229.32131,    8.03828,
+ 1984-Jul-01 00:00, , ,   228.08763,   11.32264,
+ 1985-Jan-01 00:00, , ,   234.66584,    8.97039,
+ 1985-Jul-01 00:00, , ,   233.47192,   11.74080,
+ 1986-Jan-01 00:00, , ,   238.52359,    9.58754,
+ 1986-Jul-01 00:00, , ,   237.42154,   12.01718,
+ 1987-Jan-01 00:00, , ,   241.43325,   10.05131,
+ 1987-Jul-01 00:00, , ,   240.45388,   12.17273,
+ 1988-Jan-01 00:00, , ,   243.72550,   10.37451,
+ 1988-Jul-01 00:00, , ,   242.82343,   12.26770,
+ 1989-Jan-01 00:00, , ,   245.59599,   10.62581,
+ 1989-Jul-01 00:00, , ,   244.75077,   12.33397,
+ 1990-Jan-01 00:00, , ,   247.10792,   10.81744,
+ 1990-Jul-01 00:00, , ,   246.33883,   12.37781,
+ 1991-Jan-01 00:00, , ,   248.37292,   10.97058,
+ 1991-Jul-01 00:00, , ,   247.67070,   12.40715,
+ 1992-Jan-01 00:00, , ,   249.44787,   11.09540,
+ 1992-Jul-01 00:00, , ,   248.78895,   12.42359,
+ 1993-Jan-01 00:00, , ,   250.39266,   11.20261,
+ 1993-Jul-01 00:00, , ,   249.76598,   12.43721,
+ 1994-Jan-01 00:00, , ,   251.19614,   11.29003,
+ 1994-Jul-01 00:00, , ,   250.61654,   12.44676,
+ 1995-Jan-01 00:00, , ,   251.90151,   11.36518,
+ 1995-Jul-01 00:00, , ,   251.36336,   12.45363,
+ 1996-Jan-01 00:00, , ,   252.52535,   11.43076,
+ 1996-Jul-01 00:00, , ,   252.01177,   12.45636,
+ 1997-Jan-01 00:00, , ,   253.09593,   11.49111,
+ 1997-Jul-01 00:00, , ,   252.60049,   12.46054,
+ 1998-Jan-01 00:00, , ,   253.59209,   11.54232,
+ 1998-Jul-01 00:00, , ,   253.12729,   12.46364,
+ 1999-Jan-01 00:00, , ,   254.03824,   11.58803,
+ 1999-Jul-01 00:00, , ,   253.60140,   12.46572,
+ 2000-Jan-01 00:00, , ,   254.44156,   11.62872,
+ 2000-Jul-01 00:00, , ,   254.01965,   12.46482,
+ 2001-Jan-01 00:00, , ,   254.82062,   11.66685,
+ 2001-Jul-01 00:00, , ,   254.41021,   12.46468,
+ 2002-Jan-01 00:00, , ,   255.15509,   11.69876,
+ 2002-Jul-01 00:00, , ,   254.76762,   12.46353,
+ 2003-Jan-01 00:00, , ,   255.46255,   11.72715,
+ 2003-Jul-01 00:00, , ,   255.09627,   12.46162,
+ 2004-Jan-01 00:00, , ,   255.74650,   11.75264,
+ 2004-Jul-01 00:00, , ,   255.39083,   12.45768,
+ 2005-Jan-01 00:00, , ,   256.02035,   11.77740,
+ 2005-Jul-01 00:00, , ,   255.67271,   12.45522,
+ 2006-Jan-01 00:00, , ,   256.26481,   11.79854,
+ 2006-Jul-01 00:00, , ,   255.93466,   12.45279,
+ 2007-Jan-01 00:00, , ,   256.49260,   11.81825,
+ 2007-Jul-01 00:00, , ,   256.17876,   12.45063,
+ 2008-Jan-01 00:00, , ,   256.70519,   11.83678,
+ 2008-Jul-01 00:00, , ,   256.39832,   12.44756,
+ 2009-Jan-01 00:00, , ,   256.91295,   11.85572,
+ 2009-Jul-01 00:00, , ,   256.61099,   12.44613,
+ 2010-Jan-01 00:00, , ,   257.09819,   11.87229,
+ 2010-Jul-01 00:00, , ,   256.80966,   12.44494,
+ 2011-Jan-01 00:00, , ,   257.27143,   11.88789,
+ 2011-Jul-01 00:00, , ,   256.99541,   12.44377,
+ 2012-Jan-01 00:00, , ,   257.43374,   11.90243,
+ 2012-Jul-01 00:00, , ,   257.16244,   12.44124,
+ 2013-Jan-01 00:00, , ,   257.59438,   11.91699,
+ 2013-Jul-01 00:00, , ,   257.32664,   12.43957,
+ 2014-Jan-01 00:00, , ,   257.73811,   11.92911,
+ 2014-Jul-01 00:00, , ,   257.48167,   12.43755,
+ 2015-Jan-01 00:00, , ,   257.87427,   11.94023,
+ 2015-Jul-01 00:00, , ,   257.62874,   12.43531,
+ 2016-Jan-01 00:00, , ,   258.00370,   11.95050,
+ 2016-Jul-01 00:00, , ,   257.76201,   12.43205,
+ 2017-Jan-01 00:00, , ,   258.13423,   11.96119,
+ 2017-Jul-01 00:00, , ,   257.89521,   12.42985,
+ 2018-Jan-01 00:00, , ,   258.25159,   11.97035,
+ 2018-Jul-01 00:00, , ,   258.02216,   12.42787,
+ 2019-Jan-01 00:00, , ,   258.36347,   11.97922,
+ 2019-Jul-01 00:00, , ,   258.14304,   12.42622,
+ 2020-Jan-01 00:00, , ,   258.47010,   11.98793,
+ 2020-Jul-01 00:00, , ,   258.25220,   12.42404,
+ 2021-Jan-01 00:00, , ,   258.57812,   11.99746,
+ 2021-Jul-01 00:00, , ,   258.36177,   12.42308,
+ 2022-Jan-01 00:00, , ,   258.67438,   12.00580,
+ 2022-Jul-01 00:00, , ,   258.46574,   12.42233,
+ 2023-Jan-01 00:00, , ,   258.76580,   12.01389,
+ 2023-Jul-01 00:00, , ,   258.56457,   12.42159,
+ 2024-Jan-01 00:00, , ,   258.85269,   12.02154,
+ 2024-Jul-01 00:00, , ,   258.65319,   12.41995,
+ 2025-Jan-01 00:00, , ,   258.94154,   12.02949,
+ 2025-Jul-01 00:00, , ,   258.74313,   12.41885,
+ 2026-Jan-01 00:00, , ,   259.02075,   12.03598,
+ 2026-Jul-01 00:00, , ,   258.82942,   12.41752,
+ 2027-Jan-01 00:00, , ,   259.09689,   12.04194,
+ 2027-Jul-01 00:00, , ,   258.91242,   12.41603,
+ 2028-Jan-01 00:00, , ,   259.17032,   12.04749,
+ 2028-Jul-01 00:00, , ,   258.98740,   12.41374,
+ 2029-Jan-01 00:00, , ,   259.24673,   12.05355,
+ 2029-Jul-01 00:00, , ,   259.06478,   12.41224,
+ 2030-Jan-01 00:00, , ,   259.31512,   12.05861,
+ 2030-Jul-01 00:00, , ,   259.13940,   12.41087,
+$$EOE
+*******************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+using integer leap-seconds for 1972 and later years.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) of solar
+system dynamics to the non-uniform civil UT time-scale requested for output
+has not been determined for UTC times after the next July or January 1st.
+Therefore, the last known leap-second is used as a constant over future
+intervals.
+
+  Time tags refer to the UT time-scale conversion from TDB on Earth
+regardless of observer location within the solar system, although clock
+rates may differ due to the local gravity field and no analog to "UT"
+may be defined for that location.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date. Calendar dates prior to 1582-Oct-15 are in the
+Julian calendar system. Later calendar dates are in the Gregorian system.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+ 'R.A._(ICRF), DEC_(ICRF),' =
+  Astrometric right ascension and declination of the target center with
+respect to the observing site (coordinate origin) in the reference frame of
+the planetary ephemeris (ICRF). Compensated for down-leg light-time delay
+aberration.
+
+  Units: RA  in decimal degrees,  ddd.fffff{ffff}
+         DEC in decimal degrees,  sdd.fffff{ffff}
+
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information  : https://ssd.jpl.nasa.gov/
+     Documentation: https://ssd.jpl.nasa.gov/?horizons_doc
+     Connect      : https://ssd.jpl.nasa.gov/?horizons (browser)
+                    telnet ssd.jpl.nasa.gov 6775       (command-line)
+                    e-mail command interface available
+                    Script and CGI interfaces available
+     Author       : Jon.D.Giorgini@jpl.nasa.gov
+
+*******************************************************************************
